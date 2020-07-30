@@ -1,5 +1,5 @@
 {
-  "name": "@pardjs/nest-casbin",
+  "name": "nest-casbin",
   "version": "0.0.5",
   "description": "",
   "repository": "https://github.com/pardjs/nest-casbin",
@@ -10,12 +10,13 @@
     "lint": "tslint -c ./tslint.json 'src/**/*.ts'",
     "commit": "npm run lint && npm run test && git add . && npx git-cz",
     "prepublish": "npm run build",
-    "postversion": "npm publish"
+    "postversion": "np"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.6",
+    "@types/node": "^14.0.27",
     "cz-conventional-changelog": "^2.1.0",
     "jest": "^24.1.0",
     "ts-jest": "^24.0.0",
